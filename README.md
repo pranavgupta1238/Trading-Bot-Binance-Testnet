@@ -30,7 +30,7 @@ trading_bot/
 ### 1. Clone the repo
 ```bash
 git clone <repo-url>
-cd trading_bot
+cd Trading_Bot_Binance_Testnet
 ```
 
 ### 2. Create a virtual environment
