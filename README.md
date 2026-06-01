@@ -8,7 +8,7 @@ Supports **MARKET**, **LIMIT**, and **STOP_MARKET** orders with structured loggi
 ## Project Structure
 
 ```
-trading_bot/
+Trading-Bot-Binance-Testnet/
 ├── bot/
 │   ├── __init__.py
 │   ├── client.py          # python-binance wrapper
@@ -29,8 +29,8 @@ trading_bot/
 
 ### 1. Clone the repo
 ```bash
-git clone <repo-url>
-cd Trading_Bot_Binance_Testnet
+git clone https://github.com/pranavgupta1238/Trading-Bot-Binance-Testnet.git
+cd Trading-Bot-Binance-Testnet
 ```
 
 ### 2. Create a virtual environment
