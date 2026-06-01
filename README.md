@@ -138,13 +138,3 @@ All activity is written to `logs/trading.log`:
 - **ERROR**: API errors, validation failures, network issues
 
 Console shows INFO+ only; the log file captures everything.
-
----
-
-## Assumptions
-
-- Targets Binance Futures Testnet (USDT-M) via `python-binance testnet=True`
-- Credentials are stored in `.env` (never committed to git)
-- Quantity/price precision must match the symbol's exchange filters; if Binance returns error `-1111`, adjust your values to the correct decimal places (e.g. BTC quantity in steps of 0.001)
-- `timeInForce` defaults to `GTC` for LIMIT orders; override with `--tif IOC` if needed
-- STOP_MARKET is the bonus third order type
